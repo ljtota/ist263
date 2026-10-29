@@ -26,3 +26,61 @@ nav a:hover {
     background-color:#53777A;
     color: #000;
 }
+
+
+.me {
+  float: left;
+  margin-right: 15px;
+}
+
+.copyright {
+  float: left;
+}
+
+.tagline {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.row {
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+
+.col {
+  flex: 1;
+  background-color: #e6f0ff;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
+
+iframe {
+  width: 100%;
+}
+
+textarea {
+  width: 90%;
+}
+
+.me {
+  float: left;
+  margin-right: 15px;
+  max-width: 100%;
+}
+
+@media (max-width: 1024px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 10px;
+    }
+
+    nav span {
+        display: none;
+    }
+}
